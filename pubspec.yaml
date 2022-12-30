@@ -1,14 +1,11 @@
 name: open_saves
-description: gRPC generated client for Open Saves is an open-source, purpose-built single interface 
+description: gRPC generated client for Open Saves - an open-source, purpose-built single interface 
   for multiple storage backends on Google Cloud.
-version: 1.0.0
+version: 0.2.0-beta2
 homepage: https://markvideon.dev
 
 environment:
   sdk: '>=2.18.0 <3.0.0'
-
-# dependencies:
-#   path: ^1.8.0
 
 dev_dependencies:
   lints: ^2.0.0
