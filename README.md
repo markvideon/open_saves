@@ -15,7 +15,8 @@ and the Flutter guide for
 
 [![pub package](https://img.shields.io/pub/v/open_saves.svg)](https://pub.dev/packages/open_saves)
 
-[Open Saves](https://github.com/googleforgames/open-saves) is an open source game matchmaking framework that simplifies building a scalable and extensible Matchmaker.
+[Open Saves](https://github.com/googleforgames/open-saves) is an open-source, purpose-built single interface
+for multiple storage backends on Google Cloud.
 
 This package is predominantly a [gRPC](https://grpc.io/docs/languages/dart/quickstart/) generated client, using [protoc](https://grpc.io/docs/protoc-installation/).
 
