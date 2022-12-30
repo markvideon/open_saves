@@ -8,6 +8,7 @@
 import 'dart:core' as $core;
 import 'dart:convert' as $convert;
 import 'dart:typed_data' as $typed_data;
+
 @$core.Deprecated('Use fieldBehaviorDescriptor instead')
 const FieldBehavior$json = const {
   '1': 'FieldBehavior',
@@ -22,4 +23,5 @@ const FieldBehavior$json = const {
 };
 
 /// Descriptor for `FieldBehavior`. Decode as a `google.protobuf.EnumDescriptorProto`.
-final $typed_data.Uint8List fieldBehaviorDescriptor = $convert.base64Decode('Cg1GaWVsZEJlaGF2aW9yEh4KGkZJRUxEX0JFSEFWSU9SX1VOU1BFQ0lGSUVEEAASDAoIT1BUSU9OQUwQARIMCghSRVFVSVJFRBACEg8KC09VVFBVVF9PTkxZEAMSDgoKSU5QVVRfT05MWRAEEg0KCUlNTVVUQUJMRRAF');
+final $typed_data.Uint8List fieldBehaviorDescriptor = $convert.base64Decode(
+    'Cg1GaWVsZEJlaGF2aW9yEh4KGkZJRUxEX0JFSEFWSU9SX1VOU1BFQ0lGSUVEEAASDAoIT1BUSU9OQUwQARIMCghSRVFVSVJFRBACEg8KC09VVFBVVF9PTkxZEAMSDgoKSU5QVVRfT05MWRAEEg0KCUlNTVVUQUJMRRAF');

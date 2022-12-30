@@ -8,6 +8,7 @@
 import 'dart:core' as $core;
 import 'dart:convert' as $convert;
 import 'dart:typed_data' as $typed_data;
+
 @$core.Deprecated('Use endpointDescriptor instead')
 const Endpoint$json = const {
   '1': 'Endpoint',
@@ -28,4 +29,5 @@ const Endpoint$json = const {
 };
 
 /// Descriptor for `Endpoint`. Decode as a `google.protobuf.DescriptorProto`.
-final $typed_data.Uint8List endpointDescriptor = $convert.base64Decode('CghFbmRwb2ludBISCgRuYW1lGAEgASgJUgRuYW1lEhwKB2FsaWFzZXMYAiADKAlCAhgBUgdhbGlhc2VzEhoKCGZlYXR1cmVzGAQgAygJUghmZWF0dXJlcxIWCgZ0YXJnZXQYZSABKAlSBnRhcmdldBIdCgphbGxvd19jb3JzGAUgASgIUglhbGxvd0NvcnM=');
+final $typed_data.Uint8List endpointDescriptor = $convert.base64Decode(
+    'CghFbmRwb2ludBISCgRuYW1lGAEgASgJUgRuYW1lEhwKB2FsaWFzZXMYAiADKAlCAhgBUgdhbGlhc2VzEhoKCGZlYXR1cmVzGAQgAygJUghmZWF0dXJlcxIWCgZ0YXJnZXQYZSABKAlSBnRhcmdldBIdCgphbGxvd19jb3JzGAUgASgIUglhbGxvd0NvcnM=');

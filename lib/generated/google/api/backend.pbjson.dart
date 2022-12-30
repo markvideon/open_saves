@@ -8,16 +8,25 @@
 import 'dart:core' as $core;
 import 'dart:convert' as $convert;
 import 'dart:typed_data' as $typed_data;
+
 @$core.Deprecated('Use backendDescriptor instead')
 const Backend$json = const {
   '1': 'Backend',
   '2': const [
-    const {'1': 'rules', '3': 1, '4': 3, '5': 11, '6': '.google.api.BackendRule', '10': 'rules'},
+    const {
+      '1': 'rules',
+      '3': 1,
+      '4': 3,
+      '5': 11,
+      '6': '.google.api.BackendRule',
+      '10': 'rules'
+    },
   ],
 };
 
 /// Descriptor for `Backend`. Decode as a `google.protobuf.DescriptorProto`.
-final $typed_data.Uint8List backendDescriptor = $convert.base64Decode('CgdCYWNrZW5kEi0KBXJ1bGVzGAEgAygLMhcuZ29vZ2xlLmFwaS5CYWNrZW5kUnVsZVIFcnVsZXM=');
+final $typed_data.Uint8List backendDescriptor = $convert.base64Decode(
+    'CgdCYWNrZW5kEi0KBXJ1bGVzGAEgAygLMhcuZ29vZ2xlLmFwaS5CYWNrZW5kUnVsZVIFcnVsZXM=');
 @$core.Deprecated('Use backendRuleDescriptor instead')
 const BackendRule$json = const {
   '1': 'BackendRule',
@@ -26,10 +35,37 @@ const BackendRule$json = const {
     const {'1': 'address', '3': 2, '4': 1, '5': 9, '10': 'address'},
     const {'1': 'deadline', '3': 3, '4': 1, '5': 1, '10': 'deadline'},
     const {'1': 'min_deadline', '3': 4, '4': 1, '5': 1, '10': 'minDeadline'},
-    const {'1': 'operation_deadline', '3': 5, '4': 1, '5': 1, '10': 'operationDeadline'},
-    const {'1': 'path_translation', '3': 6, '4': 1, '5': 14, '6': '.google.api.BackendRule.PathTranslation', '10': 'pathTranslation'},
-    const {'1': 'jwt_audience', '3': 7, '4': 1, '5': 9, '9': 0, '10': 'jwtAudience'},
-    const {'1': 'disable_auth', '3': 8, '4': 1, '5': 8, '9': 0, '10': 'disableAuth'},
+    const {
+      '1': 'operation_deadline',
+      '3': 5,
+      '4': 1,
+      '5': 1,
+      '10': 'operationDeadline'
+    },
+    const {
+      '1': 'path_translation',
+      '3': 6,
+      '4': 1,
+      '5': 14,
+      '6': '.google.api.BackendRule.PathTranslation',
+      '10': 'pathTranslation'
+    },
+    const {
+      '1': 'jwt_audience',
+      '3': 7,
+      '4': 1,
+      '5': 9,
+      '9': 0,
+      '10': 'jwtAudience'
+    },
+    const {
+      '1': 'disable_auth',
+      '3': 8,
+      '4': 1,
+      '5': 8,
+      '9': 0,
+      '10': 'disableAuth'
+    },
     const {'1': 'protocol', '3': 9, '4': 1, '5': 9, '10': 'protocol'},
   ],
   '4': const [BackendRule_PathTranslation$json],
@@ -49,4 +85,5 @@ const BackendRule_PathTranslation$json = const {
 };
 
 /// Descriptor for `BackendRule`. Decode as a `google.protobuf.DescriptorProto`.
-final $typed_data.Uint8List backendRuleDescriptor = $convert.base64Decode('CgtCYWNrZW5kUnVsZRIaCghzZWxlY3RvchgBIAEoCVIIc2VsZWN0b3ISGAoHYWRkcmVzcxgCIAEoCVIHYWRkcmVzcxIaCghkZWFkbGluZRgDIAEoAVIIZGVhZGxpbmUSIQoMbWluX2RlYWRsaW5lGAQgASgBUgttaW5EZWFkbGluZRItChJvcGVyYXRpb25fZGVhZGxpbmUYBSABKAFSEW9wZXJhdGlvbkRlYWRsaW5lElIKEHBhdGhfdHJhbnNsYXRpb24YBiABKA4yJy5nb29nbGUuYXBpLkJhY2tlbmRSdWxlLlBhdGhUcmFuc2xhdGlvblIPcGF0aFRyYW5zbGF0aW9uEiMKDGp3dF9hdWRpZW5jZRgHIAEoCUgAUgtqd3RBdWRpZW5jZRIjCgxkaXNhYmxlX2F1dGgYCCABKAhIAFILZGlzYWJsZUF1dGgSGgoIcHJvdG9jb2wYCSABKAlSCHByb3RvY29sImUKD1BhdGhUcmFuc2xhdGlvbhIgChxQQVRIX1RSQU5TTEFUSU9OX1VOU1BFQ0lGSUVEEAASFAoQQ09OU1RBTlRfQUREUkVTUxABEhoKFkFQUEVORF9QQVRIX1RPX0FERFJFU1MQAkIQCg5hdXRoZW50aWNhdGlvbg==');
+final $typed_data.Uint8List backendRuleDescriptor = $convert.base64Decode(
+    'CgtCYWNrZW5kUnVsZRIaCghzZWxlY3RvchgBIAEoCVIIc2VsZWN0b3ISGAoHYWRkcmVzcxgCIAEoCVIHYWRkcmVzcxIaCghkZWFkbGluZRgDIAEoAVIIZGVhZGxpbmUSIQoMbWluX2RlYWRsaW5lGAQgASgBUgttaW5EZWFkbGluZRItChJvcGVyYXRpb25fZGVhZGxpbmUYBSABKAFSEW9wZXJhdGlvbkRlYWRsaW5lElIKEHBhdGhfdHJhbnNsYXRpb24YBiABKA4yJy5nb29nbGUuYXBpLkJhY2tlbmRSdWxlLlBhdGhUcmFuc2xhdGlvblIPcGF0aFRyYW5zbGF0aW9uEiMKDGp3dF9hdWRpZW5jZRgHIAEoCUgAUgtqd3RBdWRpZW5jZRIjCgxkaXNhYmxlX2F1dGgYCCABKAhIAFILZGlzYWJsZUF1dGgSGgoIcHJvdG9jb2wYCSABKAlSCHByb3RvY29sImUKD1BhdGhUcmFuc2xhdGlvbhIgChxQQVRIX1RSQU5TTEFUSU9OX1VOU1BFQ0lGSUVEEAASFAoQQ09OU1RBTlRfQUREUkVTUxABEhoKFkFQUEVORF9QQVRIX1RPX0FERFJFU1MQAkIQCg5hdXRoZW50aWNhdGlvbg==');

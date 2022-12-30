@@ -10,14 +10,35 @@ import 'dart:core' as $core;
 import 'package:protobuf/protobuf.dart' as $pb;
 
 class LaunchStage extends $pb.ProtobufEnum {
-  static const LaunchStage LAUNCH_STAGE_UNSPECIFIED = LaunchStage._(0, const $core.bool.fromEnvironment('protobuf.omit_enum_names') ? '' : 'LAUNCH_STAGE_UNSPECIFIED');
-  static const LaunchStage EARLY_ACCESS = LaunchStage._(1, const $core.bool.fromEnvironment('protobuf.omit_enum_names') ? '' : 'EARLY_ACCESS');
-  static const LaunchStage ALPHA = LaunchStage._(2, const $core.bool.fromEnvironment('protobuf.omit_enum_names') ? '' : 'ALPHA');
-  static const LaunchStage BETA = LaunchStage._(3, const $core.bool.fromEnvironment('protobuf.omit_enum_names') ? '' : 'BETA');
-  static const LaunchStage GA = LaunchStage._(4, const $core.bool.fromEnvironment('protobuf.omit_enum_names') ? '' : 'GA');
-  static const LaunchStage DEPRECATED = LaunchStage._(5, const $core.bool.fromEnvironment('protobuf.omit_enum_names') ? '' : 'DEPRECATED');
+  static const LaunchStage LAUNCH_STAGE_UNSPECIFIED = LaunchStage._(
+      0,
+      const $core.bool.fromEnvironment('protobuf.omit_enum_names')
+          ? ''
+          : 'LAUNCH_STAGE_UNSPECIFIED');
+  static const LaunchStage EARLY_ACCESS = LaunchStage._(
+      1,
+      const $core.bool.fromEnvironment('protobuf.omit_enum_names')
+          ? ''
+          : 'EARLY_ACCESS');
+  static const LaunchStage ALPHA = LaunchStage._(
+      2,
+      const $core.bool.fromEnvironment('protobuf.omit_enum_names')
+          ? ''
+          : 'ALPHA');
+  static const LaunchStage BETA = LaunchStage._(
+      3,
+      const $core.bool.fromEnvironment('protobuf.omit_enum_names')
+          ? ''
+          : 'BETA');
+  static const LaunchStage GA = LaunchStage._(4,
+      const $core.bool.fromEnvironment('protobuf.omit_enum_names') ? '' : 'GA');
+  static const LaunchStage DEPRECATED = LaunchStage._(
+      5,
+      const $core.bool.fromEnvironment('protobuf.omit_enum_names')
+          ? ''
+          : 'DEPRECATED');
 
-  static const $core.List<LaunchStage> values = <LaunchStage> [
+  static const $core.List<LaunchStage> values = <LaunchStage>[
     LAUNCH_STAGE_UNSPECIFIED,
     EARLY_ACCESS,
     ALPHA,
@@ -26,9 +47,9 @@ class LaunchStage extends $pb.ProtobufEnum {
     DEPRECATED,
   ];
 
-  static final $core.Map<$core.int, LaunchStage> _byValue = $pb.ProtobufEnum.initByValue(values);
+  static final $core.Map<$core.int, LaunchStage> _byValue =
+      $pb.ProtobufEnum.initByValue(values);
   static LaunchStage? valueOf($core.int value) => _byValue[value];
 
   const LaunchStage._($core.int v, $core.String n) : super(v, n);
 }
-

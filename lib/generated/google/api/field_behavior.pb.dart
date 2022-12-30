@@ -14,9 +14,19 @@ import 'field_behavior.pbenum.dart';
 export 'field_behavior.pbenum.dart';
 
 class Field_behavior {
-  static final fieldBehavior = $pb.Extension<FieldBehavior>.repeated(const $core.bool.fromEnvironment('protobuf.omit_message_names') ? '' : 'google.protobuf.FieldOptions', const $core.bool.fromEnvironment('protobuf.omit_field_names') ? '' : 'fieldBehavior', 1052, $pb.PbFieldType.KE, check: $pb.getCheckFunction($pb.PbFieldType.KE), valueOf: FieldBehavior.valueOf, enumValues: FieldBehavior.values);
+  static final fieldBehavior = $pb.Extension<FieldBehavior>.repeated(
+      const $core.bool.fromEnvironment('protobuf.omit_message_names')
+          ? ''
+          : 'google.protobuf.FieldOptions',
+      const $core.bool.fromEnvironment('protobuf.omit_field_names')
+          ? ''
+          : 'fieldBehavior',
+      1052,
+      $pb.PbFieldType.KE,
+      check: $pb.getCheckFunction($pb.PbFieldType.KE),
+      valueOf: FieldBehavior.valueOf,
+      enumValues: FieldBehavior.values);
   static void registerAllExtensions($pb.ExtensionRegistry registry) {
     registry.add(fieldBehavior);
   }
 }
-

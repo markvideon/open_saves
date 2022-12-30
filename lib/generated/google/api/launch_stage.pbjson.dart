@@ -8,6 +8,7 @@
 import 'dart:core' as $core;
 import 'dart:convert' as $convert;
 import 'dart:typed_data' as $typed_data;
+
 @$core.Deprecated('Use launchStageDescriptor instead')
 const LaunchStage$json = const {
   '1': 'LaunchStage',
@@ -22,4 +23,5 @@ const LaunchStage$json = const {
 };
 
 /// Descriptor for `LaunchStage`. Decode as a `google.protobuf.EnumDescriptorProto`.
-final $typed_data.Uint8List launchStageDescriptor = $convert.base64Decode('CgtMYXVuY2hTdGFnZRIcChhMQVVOQ0hfU1RBR0VfVU5TUEVDSUZJRUQQABIQCgxFQVJMWV9BQ0NFU1MQARIJCgVBTFBIQRACEggKBEJFVEEQAxIGCgJHQRAEEg4KCkRFUFJFQ0FURUQQBQ==');
+final $typed_data.Uint8List launchStageDescriptor = $convert.base64Decode(
+    'CgtMYXVuY2hTdGFnZRIcChhMQVVOQ0hfU1RBR0VfVU5TUEVDSUZJRUQQABIQCgxFQVJMWV9BQ0NFU1MQARIJCgVBTFBIQRACEggKBEJFVEEQAxIGCgJHQRAEEg4KCkRFUFJFQ0FURUQQBQ==');

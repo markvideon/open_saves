@@ -10,14 +10,38 @@ import 'dart:core' as $core;
 import 'package:protobuf/protobuf.dart' as $pb;
 
 class FieldBehavior extends $pb.ProtobufEnum {
-  static const FieldBehavior FIELD_BEHAVIOR_UNSPECIFIED = FieldBehavior._(0, const $core.bool.fromEnvironment('protobuf.omit_enum_names') ? '' : 'FIELD_BEHAVIOR_UNSPECIFIED');
-  static const FieldBehavior OPTIONAL = FieldBehavior._(1, const $core.bool.fromEnvironment('protobuf.omit_enum_names') ? '' : 'OPTIONAL');
-  static const FieldBehavior REQUIRED = FieldBehavior._(2, const $core.bool.fromEnvironment('protobuf.omit_enum_names') ? '' : 'REQUIRED');
-  static const FieldBehavior OUTPUT_ONLY = FieldBehavior._(3, const $core.bool.fromEnvironment('protobuf.omit_enum_names') ? '' : 'OUTPUT_ONLY');
-  static const FieldBehavior INPUT_ONLY = FieldBehavior._(4, const $core.bool.fromEnvironment('protobuf.omit_enum_names') ? '' : 'INPUT_ONLY');
-  static const FieldBehavior IMMUTABLE = FieldBehavior._(5, const $core.bool.fromEnvironment('protobuf.omit_enum_names') ? '' : 'IMMUTABLE');
+  static const FieldBehavior FIELD_BEHAVIOR_UNSPECIFIED = FieldBehavior._(
+      0,
+      const $core.bool.fromEnvironment('protobuf.omit_enum_names')
+          ? ''
+          : 'FIELD_BEHAVIOR_UNSPECIFIED');
+  static const FieldBehavior OPTIONAL = FieldBehavior._(
+      1,
+      const $core.bool.fromEnvironment('protobuf.omit_enum_names')
+          ? ''
+          : 'OPTIONAL');
+  static const FieldBehavior REQUIRED = FieldBehavior._(
+      2,
+      const $core.bool.fromEnvironment('protobuf.omit_enum_names')
+          ? ''
+          : 'REQUIRED');
+  static const FieldBehavior OUTPUT_ONLY = FieldBehavior._(
+      3,
+      const $core.bool.fromEnvironment('protobuf.omit_enum_names')
+          ? ''
+          : 'OUTPUT_ONLY');
+  static const FieldBehavior INPUT_ONLY = FieldBehavior._(
+      4,
+      const $core.bool.fromEnvironment('protobuf.omit_enum_names')
+          ? ''
+          : 'INPUT_ONLY');
+  static const FieldBehavior IMMUTABLE = FieldBehavior._(
+      5,
+      const $core.bool.fromEnvironment('protobuf.omit_enum_names')
+          ? ''
+          : 'IMMUTABLE');
 
-  static const $core.List<FieldBehavior> values = <FieldBehavior> [
+  static const $core.List<FieldBehavior> values = <FieldBehavior>[
     FIELD_BEHAVIOR_UNSPECIFIED,
     OPTIONAL,
     REQUIRED,
@@ -26,9 +50,9 @@ class FieldBehavior extends $pb.ProtobufEnum {
     IMMUTABLE,
   ];
 
-  static final $core.Map<$core.int, FieldBehavior> _byValue = $pb.ProtobufEnum.initByValue(values);
+  static final $core.Map<$core.int, FieldBehavior> _byValue =
+      $pb.ProtobufEnum.initByValue(values);
   static FieldBehavior? valueOf($core.int value) => _byValue[value];
 
   const FieldBehavior._($core.int v, $core.String n) : super(v, n);
 }
-

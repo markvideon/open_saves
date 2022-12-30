@@ -8,22 +8,38 @@
 import 'dart:core' as $core;
 import 'dart:convert' as $convert;
 import 'dart:typed_data' as $typed_data;
+
 @$core.Deprecated('Use projectPropertiesDescriptor instead')
 const ProjectProperties$json = const {
   '1': 'ProjectProperties',
   '2': const [
-    const {'1': 'properties', '3': 1, '4': 3, '5': 11, '6': '.google.api.Property', '10': 'properties'},
+    const {
+      '1': 'properties',
+      '3': 1,
+      '4': 3,
+      '5': 11,
+      '6': '.google.api.Property',
+      '10': 'properties'
+    },
   ],
 };
 
 /// Descriptor for `ProjectProperties`. Decode as a `google.protobuf.DescriptorProto`.
-final $typed_data.Uint8List projectPropertiesDescriptor = $convert.base64Decode('ChFQcm9qZWN0UHJvcGVydGllcxI0Cgpwcm9wZXJ0aWVzGAEgAygLMhQuZ29vZ2xlLmFwaS5Qcm9wZXJ0eVIKcHJvcGVydGllcw==');
+final $typed_data.Uint8List projectPropertiesDescriptor = $convert.base64Decode(
+    'ChFQcm9qZWN0UHJvcGVydGllcxI0Cgpwcm9wZXJ0aWVzGAEgAygLMhQuZ29vZ2xlLmFwaS5Qcm9wZXJ0eVIKcHJvcGVydGllcw==');
 @$core.Deprecated('Use propertyDescriptor instead')
 const Property$json = const {
   '1': 'Property',
   '2': const [
     const {'1': 'name', '3': 1, '4': 1, '5': 9, '10': 'name'},
-    const {'1': 'type', '3': 2, '4': 1, '5': 14, '6': '.google.api.Property.PropertyType', '10': 'type'},
+    const {
+      '1': 'type',
+      '3': 2,
+      '4': 1,
+      '5': 14,
+      '6': '.google.api.Property.PropertyType',
+      '10': 'type'
+    },
     const {'1': 'description', '3': 3, '4': 1, '5': 9, '10': 'description'},
   ],
   '4': const [Property_PropertyType$json],
@@ -42,4 +58,5 @@ const Property_PropertyType$json = const {
 };
 
 /// Descriptor for `Property`. Decode as a `google.protobuf.DescriptorProto`.
-final $typed_data.Uint8List propertyDescriptor = $convert.base64Decode('CghQcm9wZXJ0eRISCgRuYW1lGAEgASgJUgRuYW1lEjUKBHR5cGUYAiABKA4yIS5nb29nbGUuYXBpLlByb3BlcnR5LlByb3BlcnR5VHlwZVIEdHlwZRIgCgtkZXNjcmlwdGlvbhgDIAEoCVILZGVzY3JpcHRpb24iTAoMUHJvcGVydHlUeXBlEg8KC1VOU1BFQ0lGSUVEEAASCQoFSU5UNjQQARIICgRCT09MEAISCgoGU1RSSU5HEAMSCgoGRE9VQkxFEAQ=');
+final $typed_data.Uint8List propertyDescriptor = $convert.base64Decode(
+    'CghQcm9wZXJ0eRISCgRuYW1lGAEgASgJUgRuYW1lEjUKBHR5cGUYAiABKA4yIS5nb29nbGUuYXBpLlByb3BlcnR5LlByb3BlcnR5VHlwZVIEdHlwZRIgCgtkZXNjcmlwdGlvbhgDIAEoCVILZGVzY3JpcHRpb24iTAoMUHJvcGVydHlUeXBlEg8KC1VOU1BFQ0lGSUVEEAASCQoFSU5UNjQQARIICgRCT09MEAISCgoGU1RSSU5HEAMSCgoGRE9VQkxFEAQ=');

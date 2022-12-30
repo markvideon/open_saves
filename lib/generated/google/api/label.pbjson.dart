@@ -8,12 +8,20 @@
 import 'dart:core' as $core;
 import 'dart:convert' as $convert;
 import 'dart:typed_data' as $typed_data;
+
 @$core.Deprecated('Use labelDescriptorDescriptor instead')
 const LabelDescriptor$json = const {
   '1': 'LabelDescriptor',
   '2': const [
     const {'1': 'key', '3': 1, '4': 1, '5': 9, '10': 'key'},
-    const {'1': 'value_type', '3': 2, '4': 1, '5': 14, '6': '.google.api.LabelDescriptor.ValueType', '10': 'valueType'},
+    const {
+      '1': 'value_type',
+      '3': 2,
+      '4': 1,
+      '5': 14,
+      '6': '.google.api.LabelDescriptor.ValueType',
+      '10': 'valueType'
+    },
     const {'1': 'description', '3': 3, '4': 1, '5': 9, '10': 'description'},
   ],
   '4': const [LabelDescriptor_ValueType$json],
@@ -30,4 +38,5 @@ const LabelDescriptor_ValueType$json = const {
 };
 
 /// Descriptor for `LabelDescriptor`. Decode as a `google.protobuf.DescriptorProto`.
-final $typed_data.Uint8List labelDescriptorDescriptor = $convert.base64Decode('Cg9MYWJlbERlc2NyaXB0b3ISEAoDa2V5GAEgASgJUgNrZXkSRAoKdmFsdWVfdHlwZRgCIAEoDjIlLmdvb2dsZS5hcGkuTGFiZWxEZXNjcmlwdG9yLlZhbHVlVHlwZVIJdmFsdWVUeXBlEiAKC2Rlc2NyaXB0aW9uGAMgASgJUgtkZXNjcmlwdGlvbiIsCglWYWx1ZVR5cGUSCgoGU1RSSU5HEAASCAoEQk9PTBABEgkKBUlOVDY0EAI=');
+final $typed_data.Uint8List labelDescriptorDescriptor = $convert.base64Decode(
+    'Cg9MYWJlbERlc2NyaXB0b3ISEAoDa2V5GAEgASgJUgNrZXkSRAoKdmFsdWVfdHlwZRgCIAEoDjIlLmdvb2dsZS5hcGkuTGFiZWxEZXNjcmlwdG9yLlZhbHVlVHlwZVIJdmFsdWVUeXBlEiAKC2Rlc2NyaXB0aW9uGAMgASgJUgtkZXNjcmlwdGlvbiIsCglWYWx1ZVR5cGUSCgoGU1RSSU5HEAASCAoEQk9PTBABEgkKBUlOVDY0EAI=');

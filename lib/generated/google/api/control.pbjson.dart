@@ -8,6 +8,7 @@
 import 'dart:core' as $core;
 import 'dart:convert' as $convert;
 import 'dart:typed_data' as $typed_data;
+
 @$core.Deprecated('Use controlDescriptor instead')
 const Control$json = const {
   '1': 'Control',
@@ -17,4 +18,5 @@ const Control$json = const {
 };
 
 /// Descriptor for `Control`. Decode as a `google.protobuf.DescriptorProto`.
-final $typed_data.Uint8List controlDescriptor = $convert.base64Decode('CgdDb250cm9sEiAKC2Vudmlyb25tZW50GAEgASgJUgtlbnZpcm9ubWVudA==');
+final $typed_data.Uint8List controlDescriptor = $convert.base64Decode(
+    'CgdDb250cm9sEiAKC2Vudmlyb25tZW50GAEgASgJUgtlbnZpcm9ubWVudA==');

@@ -10,19 +10,36 @@ import 'dart:core' as $core;
 import 'package:protobuf/protobuf.dart' as $pb;
 
 class ResourceDescriptor_History extends $pb.ProtobufEnum {
-  static const ResourceDescriptor_History HISTORY_UNSPECIFIED = ResourceDescriptor_History._(0, const $core.bool.fromEnvironment('protobuf.omit_enum_names') ? '' : 'HISTORY_UNSPECIFIED');
-  static const ResourceDescriptor_History ORIGINALLY_SINGLE_PATTERN = ResourceDescriptor_History._(1, const $core.bool.fromEnvironment('protobuf.omit_enum_names') ? '' : 'ORIGINALLY_SINGLE_PATTERN');
-  static const ResourceDescriptor_History FUTURE_MULTI_PATTERN = ResourceDescriptor_History._(2, const $core.bool.fromEnvironment('protobuf.omit_enum_names') ? '' : 'FUTURE_MULTI_PATTERN');
+  static const ResourceDescriptor_History HISTORY_UNSPECIFIED =
+      ResourceDescriptor_History._(
+          0,
+          const $core.bool.fromEnvironment('protobuf.omit_enum_names')
+              ? ''
+              : 'HISTORY_UNSPECIFIED');
+  static const ResourceDescriptor_History ORIGINALLY_SINGLE_PATTERN =
+      ResourceDescriptor_History._(
+          1,
+          const $core.bool.fromEnvironment('protobuf.omit_enum_names')
+              ? ''
+              : 'ORIGINALLY_SINGLE_PATTERN');
+  static const ResourceDescriptor_History FUTURE_MULTI_PATTERN =
+      ResourceDescriptor_History._(
+          2,
+          const $core.bool.fromEnvironment('protobuf.omit_enum_names')
+              ? ''
+              : 'FUTURE_MULTI_PATTERN');
 
-  static const $core.List<ResourceDescriptor_History> values = <ResourceDescriptor_History> [
+  static const $core.List<ResourceDescriptor_History> values =
+      <ResourceDescriptor_History>[
     HISTORY_UNSPECIFIED,
     ORIGINALLY_SINGLE_PATTERN,
     FUTURE_MULTI_PATTERN,
   ];
 
-  static final $core.Map<$core.int, ResourceDescriptor_History> _byValue = $pb.ProtobufEnum.initByValue(values);
-  static ResourceDescriptor_History? valueOf($core.int value) => _byValue[value];
+  static final $core.Map<$core.int, ResourceDescriptor_History> _byValue =
+      $pb.ProtobufEnum.initByValue(values);
+  static ResourceDescriptor_History? valueOf($core.int value) =>
+      _byValue[value];
 
   const ResourceDescriptor_History._($core.int v, $core.String n) : super(v, n);
 }
-
