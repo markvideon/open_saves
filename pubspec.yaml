@@ -1,7 +1,8 @@
 name: open_saves
-description: A starting point for Dart libraries or applications.
+description: gRPC generated client for Open Saves is an open-source, purpose-built single interface 
+  for multiple storage backends on Google Cloud.
 version: 1.0.0
-# homepage: https://www.example.com
+homepage: https://markvideon.dev
 
 environment:
   sdk: '>=2.18.0 <3.0.0'
